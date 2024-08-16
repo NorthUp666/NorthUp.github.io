@@ -19,7 +19,7 @@
 .dashboard-menu{
   display:flex;
   grid-column: 1 / span 1;
-  border: dotted white 5px;
+  
   height: 100%;
   width: 100%;
   
@@ -38,7 +38,7 @@
   list-style:none;
   transition: 1s;
   width: 100%;
-  border: dotted white 5px;
+  
   background-color: rgba(193, 191, 194, 0.849);
   cursor: pointer;
 }
@@ -54,7 +54,7 @@
   transition: 250ms;
   margin-left: 10px;
   color: black;
-  border: dotted white 5px;
+  
   width: 100%;
 }
 
@@ -70,7 +70,7 @@
 .grid-contener-super{
   display: grid;
   grid-template-columns: 25% 75%;
-  border: dotted white 5px;
+  
 }
 
 /* navigation menu (breadcrumb)*/
@@ -79,13 +79,13 @@
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  border: dotted white 5px;
+  
 }
 
 .breadcrumbs li{
   display: inline-flex;
   text-decoration: none;
-  border: dotted white 5px;
+  
 }
 
 .breadcrumbs li a{
@@ -121,7 +121,7 @@
   content: ">";
   background-color: whitesmoke;
   padding: 10px 5px 10px 10px;
-  border-left: dotted rgb(156, 156, 156) 2px;
+  border-left: solid rgb(156, 156, 156) 2px;
   margin-left: -10px;
   transition: 250ms;
 }
@@ -175,8 +175,8 @@
   background: url();
   color: #ffbf00;
   text-align: center;
-  border-top: dotted rgb(255, 255, 255) 2px;
-  border-bottom: dotted rgb(255, 255, 255) 2px;
+  border-top: solid rgb(255, 255, 255) 2px;
+  border-bottom: solid rgb(255, 255, 255) 2px;
   width: 300px;
   margin-top: -40px;
   margin-bottom: 50px;
@@ -209,8 +209,8 @@
   background: url();
   color: #ffbf00;
   text-align: center;
-  border-top: dotted rgb(255, 255, 255) 2px;
-  border-bottom: dotted rgb(255, 255, 255) 2px;
+  border-top: solid rgb(255, 255, 255) 2px;
+  border-bottom: solid rgb(255, 255, 255) 2px;
   width: 600px;
   margin-top: -40px;
   margin-bottom: 50px;
@@ -230,7 +230,7 @@
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  border: dotted white 5px;
+  
 }
 
 
@@ -270,7 +270,7 @@ main{
   display: grid;
   grid-template-columns: 20% 85%;
   grid-template-rows: 100%;
-  border: dotted white 5px;
+  
 }
 .contenido {
   margin-top: 300px;
@@ -283,11 +283,11 @@ main{
   font-family: Verdana, sans-serif;
   font-size: .77rem;
   font-weight: bold;
-  border: dotted white 5px;
+  
   width: 100%;
 }
 .contenido .perfiles{
-    border: dotted white 5px;
+    
     margin-top: 130px;
     display: flex;
     overflow: scroll;
@@ -308,18 +308,18 @@ main{
     /* width: 120px;
     height: 120px; */
     border-bottom: inset 5px rgba(255, 255, 255, 0.129);
-    border-top: dotted 5px rgba(255, 255, 255, 0.488);
-    border-right: dotted 5px rgba(255, 255, 255, 0.488);
-    border-left: dotted 5px rgba(255, 255, 255, 0.488);
+    border-top: solid 5px rgba(255, 255, 255, 0.488);
+    border-right: solid 5px rgba(255, 255, 255, 0.488);
+    border-left: solid 5px rgba(255, 255, 255, 0.488);
 }
 
 .contenido section img:active{
   /* width: 120px;
   height: 120px; */
   border-bottom: inset 5px rgba(255, 255, 255, 0.488);
-  border-top: dotted 5px rgba(255, 255, 255, 0.129);
-  border-right: dotted 5px rgba(255, 255, 255, 0.129);
-  border-left: dotted 5px rgba(255, 255, 255, 0.129);
+  border-top: solid 5px rgba(255, 255, 255, 0.129);
+  border-right: solid 5px rgba(255, 255, 255, 0.129);
+  border-left: solid 5px rgba(255, 255, 255, 0.129);
 }
 
 .banner {
